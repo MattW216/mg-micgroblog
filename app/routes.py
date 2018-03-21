@@ -20,7 +20,7 @@ def index():
             'body': 'Get Out was a really good movie! Irure dolor ipsum occaecat non nulla exercitation. Fugiat mollit esse non nulla cillum irure enim sit occaecat. Laboris commodo minim qui cillum sunt est adipisicing. Veniam duis ipsum cillum nostrud veniam do ad ipsum ex amet ipsum nulla.'
         }
     ]
-    return render_template('index.html', title='Microblog', user=user, posts=posts)
+    return render_template('index.html', title='Home', user=user, posts=posts)
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
